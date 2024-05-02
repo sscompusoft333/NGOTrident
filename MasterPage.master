@@ -165,7 +165,7 @@
                                 <li><a href="#" title="Faq">Join US</a></li>
                                 <li><a href="#" title="Donation">Events</a></li>
                                 <li><a href="#" title="Coming Soon">Gallery</a></li>
-                                <li class="drop"><a href="#">Blogs</a>
+                                <li class="drop"><a href="blog.aspx">Blogs</a>
 
                                 </li>
                                 <li><a href="ContactUS.aspx" title="404 Page">Contact US</a></li>
