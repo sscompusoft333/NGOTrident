@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="blog.aspx.cs" Inherits="blog" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="blogview.aspx.cs" Inherits="blogview" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
@@ -75,8 +75,8 @@
 
                                     </p>
 
-                                    <%#Eval("descr") %>
-                                    <a href='<%#"blogview.aspx?" + Eval("SEO_Friendly_URL")%>'>Read More...</a>
+                                    <%#Eval("content") %>
+                                    
                                 </div>
                                 <!-- end col-sm-8  -->
 
@@ -168,7 +168,7 @@
                     </article>
 --%>
 
-                    <div class="blog-pagination text-center clearfix">
+<%--                    <div class="blog-pagination text-center clearfix">
 
                         <ul class="pagination">
 
@@ -181,7 +181,7 @@
                         </ul>
                         <!-- end pagination  -->
 
-                    </div>
+                    </div>--%>
                     <!--  end blog-pagination -->
 
                 </div>
